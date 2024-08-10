@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>t2sstudiot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
+
+</head>
+<body>
+    <header>
+        <a href="#" style="color: inherit;">
+            <img id="logo" src="image/logo.png">
+            
+            </a>
+            <h3 id="logotx"> t2sstudio </h3>
+        <nav>
+            <!-- Hamburger Menu -->
+            <label style="background-color: transparent;" class="hamburger">
+                <input type="checkbox" id="menu-toggle">
+                <svg viewBox="0 0 32 32">
+                    <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"></path>
+                    <path class="line" d="M7 16 27 16"></path>
+                </svg>
+            </label>
+
+            <!-- Mobile Menu -->
+            <div style="background-color: transparent;" class="menu" id="menu">
+                <div class="cancel-btn" id="cancel-btn">✖</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html" >Project</a></li>
+                    <li><a href="contact.html" style="opacity: 1;">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+   
+    <div class="contactit">
+        <h1 style="position: relative; color:white; " > contact form</h1>
+        <p style="color: white;"> by Formspree due to time problem website fully <br> optimized soon !<br> lets talk with Best Projects</p>
+    <form
+    action="https://formspree.io/f/mqazblpg"
+    method="POST"
+  >
+
+    <label style="color:white; font-size:2rem " >
+     <p id="ctx"> Your email:</p>
+      <input style="border-radius:25px; color:black;width:12rem;height:2rem;margin-top:4rem;position:relative " type="email" name="email" required>
+    </label>
+    <br>
+    <label style="color: white; font-size:2rem">
+     <p id="ctx">Your message:</p>
+      <textarea style="border-radius: 15px; color:black;width:12rem;height:3rem;position:relative;top:0.3rem " name="message" required></textarea>
+    </label>
+    <br>
+    <!-- your other form fields go here -->
+    <button style="background-color: aqua; border-radius:25px; width:5rem;height:2rem " type="submit">Send</button>
+  </form>
+    </div>
+ <script src="scripts.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="./js/isotope.pkgd.min.js"></script>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
